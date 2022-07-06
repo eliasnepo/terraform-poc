@@ -8,3 +8,8 @@ provider "aws" {
   version = "~> 2.0"
   region  = "us-east-2"
 }
+
+module "queues" {
+  source = "./modules/queues"
+  env = var.env
+}
