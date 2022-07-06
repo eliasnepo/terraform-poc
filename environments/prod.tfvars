@@ -1,1 +1,1 @@
-key_name = "prod"
+env = "prod"

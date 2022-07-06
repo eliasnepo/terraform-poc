@@ -1,1 +1,1 @@
-key_name = "dev"
+env = "dev"

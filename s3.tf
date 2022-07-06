@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "dev4" {
+resource "aws_s3_bucket" "bucket-app" {
   bucket = "bucket-app-${var.env}"
   acl    = "private"
 

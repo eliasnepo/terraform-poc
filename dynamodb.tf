@@ -1,4 +1,4 @@
-resource "aws_dynamodb_table" "dynamodb-homologacao" {
+resource "aws_dynamodb_table" "dynamodb-table" {
   provider = "aws.us-east-2"
   name           = "GameScores"
   billing_mode   = "PAY_PER_REQUEST"
