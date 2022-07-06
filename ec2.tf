@@ -1,6 +1,6 @@
 resource "aws_instance" "application1" {
   count = 2
-  ami = "${var.amis["us-east-1"]}"
+  ami = "${var.ec2_amis["us-east-1"]}"
   instance_type = "t2.micro"
   key_name = "app1-instance-${var.env}"
   tags = {
@@ -11,7 +11,7 @@ resource "aws_instance" "application1" {
 }
 
 resource "aws_instance" "application2" {
-  ami = "${var.amis["us-east-2"]}"
+  ami = "${var.ec2_amis["us-east-2"]}"
   instance_type = "t2.micro"
   key_name = "app2-instance-${var.env}"
   tags = {
