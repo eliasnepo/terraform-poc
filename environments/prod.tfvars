@@ -1,1 +1,1 @@
-key_name = "terraform-prod"
+key_name = "prod"

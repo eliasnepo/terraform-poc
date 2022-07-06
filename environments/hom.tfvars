@@ -1,1 +1,1 @@
-key_name = "terraform-hom"
+key_name = "hom"

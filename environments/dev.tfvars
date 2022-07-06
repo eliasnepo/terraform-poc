@@ -1,1 +1,1 @@
-key_name = "terraform-dev"
+key_name = "dev"
